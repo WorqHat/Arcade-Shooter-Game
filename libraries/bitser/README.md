@@ -1,8 +1,5 @@
 # bitser
 
-[![Build Status](https://travis-ci.org/gvx/bitser.svg?branch=master)](https://travis-ci.org/gvx/bitser)
-[![Coverage Status](https://coveralls.io/repos/github/gvx/bitser/badge.svg?branch=master)](https://coveralls.io/github/gvx/bitser?branch=master)
-
 Serializes and deserializes Lua values with LuaJIT.
 
 ```lua
