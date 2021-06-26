@@ -1,7 +1,5 @@
 # binser - Customizable Lua Serializer
 
-[![Build Status](https://travis-ci.org/bakpakin/binser.svg?branch=master)](https://travis-ci.org/bakpakin/binser)
-
 There already exists a number of serializers for Lua, each with their own uses,
 limitations, and quirks. binser is yet another robust, pure Lua serializer that
 specializes in serializing Lua data with lots of userdata and custom classes
@@ -183,14 +181,10 @@ luarocks install binser
 ```
 
 ## Testing
-binser uses [busted](http://olivinelabs.com/busted/) for testing. Install and
-run `busted` from the command line to test.
+Install and run `busted` from the command line to test.
 
 ## Notes
 * Serialized strings can contain unprintable and null characters.
 * Serialized data can be appended to other serialized data. (Cool :))
 * The functions `binser.serialize`, `binser.deserialize`, and `binser.deserializeN` can be shortened to
 `binser.s`, `binser.d`, and `binser.dn` as handy shortcuts.
-
-## Bugs
-Pull requests are welcome, please help me squash bugs!
